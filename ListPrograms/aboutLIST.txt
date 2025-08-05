@@ -1,0 +1,32 @@
+ABOUT LIST IN PYTHON:
+--------------------
+List is predefined class name and belongs to LIST category data type, also called as Data structure in python.
+List is used to store the collection of elemnts of either same type or different type or both.
+list follows insertion order(ordered).
+list is mutable because it allows item assignment and also the memory address remains same after updating the list.
+We can create two types of list:
+    a) Empty List ---> No elements or length is zero. --> Can be created using [] or list()
+    b) Non Empty List --> One or more elements | length of a list is > 0
+
+we can perform indexing/slicing operations on a list
+We can use predefined functions to perform more operations on a list.
+
+PREDEFINED FUNCTIONS A LIST ARE:
+
+WORDS to Remeber the LIST functions easily.
+
+######################
+#    CARS PRIICCE    #
+######################
+
+count(elem) --> Returns the count of elements present in a list | 0 if the elem is not exist
+append(elem) --> adds the element to end of the list
+remove(elem) ---> removes the first occurences of a list | value error if the elemt is not exist
+sort() --> Sort the elemenst in a ascending order as the reverse parameter set to False as lst.sort(reverse=False) |  lst.sort(reverse=True) sorts the elements in descedning order 
+
+pop() and pop(index)  --> pop() removes the end of element from alist and retuns the same elemtn | pop(index) removes specified elemnt from the given index, indexerror if the index no in the rnage(0, len(lst) - 1)
+index() --> returns the index of a given value
+insert() --> inserts the element at specifiec index
+copy() --> copy the list
+clear() --> removes the elemts from a given list
+extend() --> two merge one list into another
