@@ -13,3 +13,13 @@ for i in range(1, len(lst)):
         largest = lst[i]
 else:
     print(f"Largest Number of a list {lst} is: {largest}")
+
+# Approach3
+
+lst = [1, 2, 3, 4, 5, -1, -2, -3, -4, -5]
+lst.sort()
+print(f"largest number: {lst[-1]}")
+
+#Approach4
+lst = [1, 2, 3, 4, 5, -1, -2, -3, -4, -5]
+print(sorted(lst)[-1])
