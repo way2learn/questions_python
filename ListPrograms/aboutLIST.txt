@@ -45,15 +45,18 @@ Python program to find sum of elements in list
 Python | Multiply all numbers in the list
 Python program to find smallest number in a list
 Python program to find largest number in a list
+
 Python program to find second largest number in a list
 Python program to find N largest elements from a list
 Python program to find N Smallest elements from a list
 Python program to print even numbers in a list
 Python program to print odd numbers in a List
+
 Python program to print all even numbers in a range
 Python program to print all odd numbers in a range
 Python program to print positive numbers in a list
 Python program to print negative numbers in a list
+
 Python program to print all positive numbers in a range
 Python program to print all negative numbers in a range
 Remove multiple elements from a list in Python
