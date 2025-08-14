@@ -8,8 +8,3 @@ for elem in lst:
     sum += elem
 else:
     print(f"sum of {lst} = {sum}")
-
-# Approach2
-
-lst = [1, 2, 3, 4, 5]
-print(f"sum of : {sum(1, 2)}")

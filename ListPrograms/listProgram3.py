@@ -13,13 +13,3 @@ for char in lst:
     i += 1
 else:
     print(f"lst length is: {i}")
-
-# Appraoch3 using while loop
-
-lst = [1, 2, 3, 4]
-i = 0
-while lst[i]:
-    i += 1
-else:
-    print(f"lst lenght is: {i}")
-    

@@ -15,8 +15,10 @@ print(lst)
 
 # Approach3 
 lst = [1, 2, 4 ,5, 6]
-for i in range(0, len(lst)):
+length = len(lst)
+for i in range(0, length):
     lst.pop()
+    
 else:
     print(f"lst is  cleared using for loop and pop function {lst}")
 

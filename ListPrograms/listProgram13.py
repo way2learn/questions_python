@@ -24,8 +24,3 @@ for i in range(0, len(lst)):
 else:
     print(f"{lst}")
     print(f"{lst[0:n]}")
-
-import heapq
-n = int(input("Enter how many largest numbers you want: "))
-lst = [20, -30, 10, 2, 3, 45, -3]
-print(heapq.nsmallest(n, lst))
