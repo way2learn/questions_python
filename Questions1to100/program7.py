@@ -34,7 +34,7 @@ for val in lst:
 else:
     print(f"unique l1: {l1}, duplicates l2: {l2}")
 
-# Approach3
+# Approach4
 lst = [1, 2, 3, 4 ,5 ,6, 7, 1, 3, 4, 5, 1]
 unique = list()
 dup = list()
@@ -45,8 +45,6 @@ for val in lst:
         unique.append(val)
 else:
     print(f"unique l1: {unique}, duplicates l2: {dup}")
-
-    # Approach4
     from collections import Counter
 
     lst = [1, 2, 3, 4 ,5 ,6, 7, 1, 3, 4, 5, 1, 1, 1, 1,1]
@@ -61,7 +59,7 @@ else:
     else:
         print(f"unique: {unique} and duplicates: {dup}")
 
-# Approach
+# Approach5
 from collections import Counter
 
 lst = [1, 2, 3, 4, 5, 6, 7, 1, 3, 4, 5, 1, 1, 1, 1, 1]
