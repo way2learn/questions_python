@@ -1,5 +1,3 @@
-
-
 Python program to check if a string is palindrome or not
 Python program to check whether the string is Symmetrical or Palindrome
 Reverse words in a given String in Python
